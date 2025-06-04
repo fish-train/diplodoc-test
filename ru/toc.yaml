@@ -1,4 +1,4 @@
-title: Шаблон Документации
+title: ИПР 2025
 href: index.yaml
 
 analytics:
@@ -11,24 +11,36 @@ analytics:
 
 navigation:
   logo:
-    url: "https://github.ru/"
+    # url: "https://github.ru/"
     dark:
-      icon: "https://storage.yandexcloud.net/diplodoc-www-assets/logo/ddos-logo-dark.svg"
+      icon: "https://www.performance-lab.ru/wp-content/uploads/2023/05/perfomans-Lab-logotip.svg"
     light:
-      icon: "https://storage.yandexcloud.net/diplodoc-www-assets/navigation/diplodoc-logo.svg"
+      icon: "https://www.performance-lab.ru/wp-content/uploads/2023/05/perfomans-Lab-logotip.svg"
   header:
-    leftItems:
-      - text: "Оглавление"
-        type: "link"
-        url: "../ru"
-      - text: "Помощь"
-        type: "link"
-        url: "./help"
+    # leftItems:
+    #   - text: "Оглавление"
+    #     type: "link"
+    #     url: "../ru"
+    #   - text: "Помощь"
+    #     type: "link"
+    #     url: "./help"
     rightItems:
       - type: 'controls'
 
 items:
-  - name: Помощь
-    href: help.md
-  - name: Правила
-    href: rules.md
+  - name: ИПР 2025
+    href: intro.md
+  - name: Cкрипт для увеличения изображений в документации
+    href: medium-zoom.md
+  - name: Правила для проверки текстов на русском языке с помощью линтера Vale
+    href: vale.md
+  - name: Описание API в DOCX
+    href: api-docx
+  - name: Внедрение расширений Sphinx
+    href: extensions
+  - name: Улучшения проверки орфографии на русском и английском
+    href: spelling
+  # - name: Помощь
+  #   href: help.md
+  # - name: Правила
+  #   href: rules.md

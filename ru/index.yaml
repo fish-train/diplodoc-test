@@ -1,12 +1,19 @@
-title: Шаблон Документации
-description: Шаблон Документации - напишите документацию для ваших пользователей
+title: ИПР 2025
+description: Проект Diplodoc с результатами ИПР 2005
 meta:
-  title: Метаданные
+  title: ИПР 2025
   noIndex: true
 links:
-- title: Помощь
-  description: Описание всех возможностей того, как связаться с нами
-  href: help.md
-- title: Правила
-  description: Описание платформы, ее основные возможности, особенности и преимущества.
-  href: rules.md
+- title: ИПР 2025
+  description: Цели ИПР и план работ
+  href: intro.md
+- title: Cкрипт для увеличения изображений в документации
+  href: medium-zoom.md
+- title: Правила для проверки текстов на русском языке
+  href: vale.md
+- title: Описание API в DOCX
+  href: api-docx.md
+- title: Внедрение расширений Sphinx
+  href: extensions.md
+- title: Улучшения проверки орфографии на русском и английском
+  href: spelling.md
