@@ -40,6 +40,8 @@ items:
     href: extensions
   - name: Улучшения проверки орфографии на русском и английском
     href: spelling
+  - name: Кликабельная иконка поиска
+    href: search.md
   # - name: Помощь
   #   href: help.md
   # - name: Правила
