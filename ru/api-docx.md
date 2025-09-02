@@ -6,4 +6,4 @@
 
 Пример, как описание API выглядит в DOCX:
 
-![](_images/api-docx.png)
+![api-docx](../images/api-docx.png)
